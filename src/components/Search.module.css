@@ -1,0 +1,19 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.search-input {
+  flex-grow: 1;
+  padding: 8px;
+  background-image: url('../assets/icon-search.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 25px;
+}
+
+.search-button {
+  margin-right: 8px;
+  padding: 8px 16px;
+}

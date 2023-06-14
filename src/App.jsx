@@ -1,9 +1,13 @@
-import './App.css';
+import TitleBar from './components/TitleBar';
+import Search from './components/Search';
+import Card from './components/Card';
 
 function App() {
   return (
     <>
-      <h1>Github User Search Application</h1>
+      <TitleBar />
+      <Search />
+      <Card />
     </>
   );
 }
