@@ -1,3 +1,8 @@
 .title {
   display: flex;
 }
+
+.mode {
+  display: flex;
+  flex-direction: row;
+}
