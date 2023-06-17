@@ -3,3 +3,9 @@
   background-repeat: no-repeat;
   background-position: left center;
 }
+
+.card {
+  background: rgba(188, 199, 238, 0.825);
+  border-radius: 10px;
+  margin-top: 20px;
+}
