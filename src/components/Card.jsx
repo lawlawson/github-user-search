@@ -19,7 +19,7 @@ const Card = () => {
         </p>
       </div>
       <div className='social-info-section'>
-        <div>
+        <div className='social-info-section-1'>
           <p>Repos</p>
           <p>8</p>
         </div>

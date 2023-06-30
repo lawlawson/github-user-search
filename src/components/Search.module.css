@@ -16,4 +16,10 @@
 .search-button {
   margin-right: 8px;
   padding: 8px 16px;
+  width: 5.25rem;
+  height: 2.8725rem;
+  border-radius: 0.625rem;
+  border-style: none;
+  background-color: hsl(212, 100%, 50%);
+  color: #fff;
 }
