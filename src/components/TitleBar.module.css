@@ -1,5 +1,11 @@
 .title {
   display: flex;
+  flex-direction: row;
+}
+
+.titletext {
+  font-size: 1.625rem;
+  font-weight: 700;
 }
 
 .mode {
