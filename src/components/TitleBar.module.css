@@ -1,11 +1,12 @@
 .title {
-  display: flex;
-  flex-direction: row;
+  display: inline-flex;
+  /* flex-direction: row; */
 }
 
 .titletext {
-  font-size: 1.625rem;
+  font-size: 26;
   font-weight: 700;
+  font-family: 'Space Mono';
 }
 
 .mode {

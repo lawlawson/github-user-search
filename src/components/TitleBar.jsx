@@ -7,10 +7,10 @@ const TitleBar = () => {
       <div>
         <p className={styles.titletext}>devFinder</p>
       </div>
-      {/* <div className={styles.mode}>
+      <div className={styles.mode}>
         <div>Dark</div>
         <img src={moon} alt='' />
-      </div> */}
+      </div>
     </div>
   );
 };
