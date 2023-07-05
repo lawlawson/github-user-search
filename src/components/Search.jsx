@@ -13,18 +13,16 @@ const Search = (e) => {
   };
 
   return (
-    <div className={styles['search-bar']}>
-      <div className={styles['search-input']}>
-        <input
-          type='text'
-          value={searchQuery}
-          onChange={handleInputChange}
-          placeholder='Search Github username...'
-        />
-        <button className={styles['search-button']} onClick={handleSearch}>
-          Search
-        </button>
-      </div>
+    <div className={styles['search-input']}>
+      <input
+        type='text'
+        value={searchQuery}
+        onChange={handleInputChange}
+        placeholder='Search Github username...'
+      />
+      <button className={styles['search-button']} onClick={handleSearch}>
+        Search
+      </button>
     </div>
   );
 };
