@@ -1,9 +1,10 @@
 .title {
-  display: inline-flex;
-  /* flex-direction: row; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.titletext {
+.name {
   font-size: 26;
   font-weight: 700;
   font-family: 'Space Mono';
@@ -11,5 +12,14 @@
 
 .mode {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+}
+
+.mode p {
+  padding-right: 1rem;
+}
+
+img {
+  width: 1.25rem;
+  height: 1.25rem;
 }

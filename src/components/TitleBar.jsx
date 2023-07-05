@@ -5,10 +5,10 @@ const TitleBar = () => {
   return (
     <div className={styles.title}>
       <div>
-        <p className={styles.titletext}>devFinder</p>
+        <p className={styles.name}>devFinder</p>
       </div>
       <div className={styles.mode}>
-        <div>Dark</div>
+        <p>Dark</p>
         <img src={moon} alt='' />
       </div>
     </div>
