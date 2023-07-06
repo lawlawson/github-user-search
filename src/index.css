@@ -1,12 +1,5 @@
 @import-normalize;
 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-}
-
 /* CSS Reset */
 
 /* Remove default margin and padding */
@@ -115,3 +108,25 @@ a {
 }
 
 /* Additional customizations as per your requirements */
+
+:root {
+  --clr-lm-blue: rgb(0, 121, 255);
+  --clr-lm-grey: rgb(105, 124, 154);
+  --clr-lm-blueGrey: rgb(75, 106, 155);
+  --clr-lm-darkGrey: #2b3442;
+  --clr-lm-lightBlue: rgb(246, 248, 255);
+  --clr-lm-white: rgb(254, 254, 254);
+
+  --clr-dm-blue: rgb(0, 121, 255);
+  --clr-dm-white: rgb(255, 255, 255);
+  --clr-dm-black: rgb(20, 29, 47);
+  --clr-dm-darkGray: rgb(30, 42, 71);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: var(--clr-lm-lightBlue);
+}
