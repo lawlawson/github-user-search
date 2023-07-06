@@ -1,16 +1,29 @@
-.profile-pic {
-  /* background-image: url('../assets/octocat.svg'); */
-  background-repeat: no-repeat;
-  background-position: left center;
-}
-
 .card {
   background: rgba(188, 199, 238, 0.825);
   border-radius: 10px;
   margin-top: 20px;
+  padding: 30px;
 }
 
-.social-info-section-1 {
+.profile-pic {
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin-right: 20px;
+}
+
+.social-info {
   display: flex;
-  flex-direction: row;
+}
+
+.profile-info p {
+  margin: 0;
+}
+
+.profile-details {
+  color: #4b6a9b;
+  font-family: Space Mono;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem;
 }
