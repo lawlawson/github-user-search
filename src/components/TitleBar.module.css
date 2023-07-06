@@ -5,10 +5,11 @@
   padding: 20px 0;
 }
 
-.name {
-  font-size: 26;
-  font-weight: 700;
+.name h1 {
   font-family: 'Space Mono';
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 38px;
 }
 
 .mode {

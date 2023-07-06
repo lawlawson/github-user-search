@@ -129,4 +129,5 @@ body {
   justify-content: center;
   min-height: 100vh;
   background: var(--clr-lm-lightBlue);
+  margin: 20px;
 }

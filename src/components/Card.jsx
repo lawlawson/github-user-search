@@ -1,5 +1,6 @@
 import styles from './Card.module.css';
 import profileImage from '../assets/octocat.svg';
+import Stats from './Stats';
 
 const Card = () => {
   return (
@@ -9,9 +10,9 @@ const Card = () => {
           <img src={profileImage} />
         </div>
         <div className={styles['profile-info']}>
-          <p>The Octocat</p>
-          <p>@Something</p>
-          <p>Joined 25 Jan 2011</p>
+          <h2>The Octocat</h2>
+          <h3>@Something</h3>
+          <h4>Joined 25 Jan 2011</h4>
         </div>
       </div>
       <div>
@@ -19,6 +20,9 @@ const Card = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
           iure sequi facilis harum.
         </p>
+      </div>
+      <div>
+        <Stats />
       </div>
     </div>
   );
