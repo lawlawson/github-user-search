@@ -8,11 +8,11 @@
 .profile-pic {
   background-repeat: no-repeat;
   background-position: left center;
+  margin-right: 2rem;
 }
 
 .social-info {
   display: flex;
-  justify-content: space-between;
 }
 
 .profile-info {

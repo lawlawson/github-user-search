@@ -1,6 +1,7 @@
 import styles from './Card.module.css';
 import profileImage from '../assets/octocat.svg';
 import Stats from './Stats';
+import Links from './Links';
 
 const Card = () => {
   return (
@@ -23,6 +24,7 @@ const Card = () => {
       </div>
       <div>
         <Stats />
+        <Links />
       </div>
     </div>
   );

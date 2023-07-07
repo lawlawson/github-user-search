@@ -1,0 +1,19 @@
+.container {
+  margin-top: 1.5rem;
+}
+
+.location {
+  display: flex;
+}
+
+.website {
+  display: flex;
+}
+
+.twitter {
+  display: flex;
+}
+
+.company {
+  display: flex;
+}
