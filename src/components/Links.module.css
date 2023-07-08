@@ -2,18 +2,20 @@
   margin-top: 1.5rem;
 }
 
-.location {
-  display: flex;
-}
-
-.website {
-  display: flex;
-}
-
-.twitter {
-  display: flex;
-}
-
+.location,
+.website,
+.twitter,
 .company {
   display: flex;
+  padding: 10px 0;
+}
+
+.location img {
+  margin-right: 26px;
+}
+
+.website img,
+.twitter img,
+.company img {
+  margin-right: 20px;
 }
