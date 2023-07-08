@@ -6,3 +6,15 @@
   padding: 20px;
   border-radius: 20px;
 }
+
+.repos p {
+  padding-bottom: 10px;
+}
+
+.followers p {
+  padding-bottom: 10px;
+}
+
+.following p {
+  padding-bottom: 10px;
+}
