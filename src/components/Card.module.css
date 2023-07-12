@@ -20,19 +20,17 @@
 }
 
 .profile-info h2 {
-  font-family: 'Space Mono Bold';
   font-size: 22px;
   line-height: 33px;
 }
 .profile-info h3 {
-  font-family: 'Space Mono';
   font-size: 16px;
   line-height: 24px;
   color: var(--clr-lm-blue);
 }
 
 .profile-info h4 {
-  font-family: 'Space Mono';
+  color: #4b6a9b;
   font-size: 13px;
   line-height: 20px;
 }
@@ -40,7 +38,6 @@
 .profile-details {
   margin-top: 2rem;
   color: #4b6a9b;
-  font-family: 'Space Mono';
   font-size: 0.8125rem;
   font-style: normal;
   font-weight: 400;

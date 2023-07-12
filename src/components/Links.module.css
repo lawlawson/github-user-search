@@ -8,6 +8,7 @@
 .company {
   display: flex;
   padding: 10px 0;
+  color: #4b6a9b;
 }
 
 .location img {
