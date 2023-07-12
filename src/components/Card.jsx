@@ -12,7 +12,7 @@ const Card = () => {
         </div>
         <div className={styles['profile-info']}>
           <h2>The Octocat</h2>
-          <h3>@Something</h3>
+          <h3>@something</h3>
           <h4>Joined 25 Jan 2011</h4>
         </div>
       </div>
